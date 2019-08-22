@@ -34,8 +34,13 @@ Overall, **bwt2lcp** causes therefore at most 6n cache misses. **merge_bwt**, on
 
 **In practice**: Several optimizations have been introduced to reduce the number of visited leaves. These optimizations, together with the fact that we often write several adjacent LCP/DA entries and that several nodes fit within a cache line (because they have short intervals), bring down the above numbers to around **1.5n  cache-misses for bwt2lcp** and **3n cache misses for merge_bwt** (these numbers have been computed experimentally with a memory profiler).
 
+##Publications
 
+*Nicola Prezza and Giovanna Rosone, 2019. Space-Efficient Computation of the LCP Array from the Burrows-Wheeler Transform. Proceedings of the 30th Annual Symposium on Combinatorial Pattern Matching (CPM).*
 
+### Funding
+
+Supported by the project Italian MIUR-SIR CMACBioSeq ("Combinatorial methods for analysis and compression of biological sequences") grant n.~RBSI146R5L, PI: Giovanna Rosone
 
 ### Install
 
