@@ -40,7 +40,7 @@ Overall, **bwt2lcp** causes therefore at most 6n cache misses. **merge_bwt**, on
 
 ### Funding
 
-Supported by the project Italian MIUR-SIR CMACBioSeq ("Combinatorial methods for analysis and compression of biological sequences") grant n.~RBSI146R5L, PI: Giovanna Rosone
+Supported by the project Italian MIUR-SIR CMACBioSeq ("Combinatorial methods for analysis and compression of biological sequences") grant n.~RBSI146R5L, PI: Giovanna Rosone. Link: http://pages.di.unipi.it/rosone/CMACBioSeq.html
 
 ### Install
 
