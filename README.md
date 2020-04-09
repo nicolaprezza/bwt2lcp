@@ -38,7 +38,7 @@ Overall, **bwt2lcp** causes therefore at most 6n cache misses. **merge_bwt**, on
 
 *Nicola Prezza and Giovanna Rosone, 2019. Space-Efficient Computation of the LCP Array from the Burrows-Wheeler Transform. Proceedings of the 30th Annual Symposium on Combinatorial Pattern Matching (CPM).*
 
-*Prezza, Nicola, and Giovanna Rosone. "Space-Efficient Construction of Compressed Suffix Trees." arXiv preprint arXiv:1908.04686 (2019).*
+*Nicola Prezza and Giovanna Rosone, 2019. "Space-Efficient Construction of Compressed Suffix Trees." arXiv preprint arXiv:1908.04686*
 
 ### Funding
 
