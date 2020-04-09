@@ -2,8 +2,6 @@
 
 ### Overview
 
-Based on the paper *Prezza, Nicola, and Giovanna Rosone. "Space-Efficient Construction of Compressed Suffix Trees." arXiv preprint arXiv:1908.04686 (2019).*
-
 We offer two fast and memory-efficient internal-memory algorithms to induce the LCP array from the BWT of a DNA text o text collection. The algorithms simulate a navigation of the nodes and leaves of the generalized suffix tree of the collection using negligible space (O(log n) words) on top of the inpt (BWT) and output (LCP/DA). 
 
 **bwt2lcp**: Induce the LCP array from the BWT of a text or a text collection over DNA alphabet {A,C,G,N,T,#}, where # is the string terminator (can be changed with option -t). If no 'N's are present, the algorithms switch automatically to more efficient data structures on alphabet {A,C,G,T,#}.
@@ -39,6 +37,8 @@ Overall, **bwt2lcp** causes therefore at most 6n cache misses. **merge_bwt**, on
 ### Publications
 
 *Nicola Prezza and Giovanna Rosone, 2019. Space-Efficient Computation of the LCP Array from the Burrows-Wheeler Transform. Proceedings of the 30th Annual Symposium on Combinatorial Pattern Matching (CPM).*
+
+*Prezza, Nicola, and Giovanna Rosone. "Space-Efficient Construction of Compressed Suffix Trees." arXiv preprint arXiv:1908.04686 (2019).*
 
 ### Funding
 
